@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+.container {
+    background: #fff;
+    width: 600px;
+    position: relative;
+    left: 50%;
+    right: 50% !important;
+    transform: translate(-50%, 0%);
+
+}
+
+.topbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-weight: 900;
+    position: relative;
+    margin-left: 9em;
+}
+
+/* bg img-1 */
+.topbar img {
+    position: relative;
+    margin-top: 10px;  
+}
+
+.bg1 h2 {
+    text-overflow: clip;
+    position: absolute;
+    margin-top: -12em;
+    text-align: center;
+    margin-left: 3em;
+    color: #eee;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.bg1 h4 {
+    text-overflow: clip;
+    position: absolute;
+    margin-top: -14em;
+    color: #eee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    max-width: 90%;
+}
+.bg1 .btn a {
+     position: absolute;
+     text-overflow: clip;
+     margin-top: -7em;
+     text-align: center;
+     color: white;
+     background-color: orange;
+     border: 4px solid orange;
+     border-radius: 10px;
+     font-size: large;
+ }
+
+ /* welcome */
+
+ .welcome {
+     background-color: rgb(54, 54, 54);
+     position: absolute;
+     margin-top: -5px;
+     text-align: center;
+     color: #eee;
+ }
+
+ .welcome h3 {
+     border-bottom: 3.5px solid orange;
+     padding-bottom: 10px;
+     max-width: 100px;
+     margin-left: 40%;
+     color: rgb(155, 154, 153);
+     font-size: larger;
+ }
+.welcome h6 {
+    font-size: 15px;
+    max-width: 80%;
+    margin-left: 10%;
+    color: rgb(204, 198, 198);
+}
+
+/* services */
+.services {
+position: relative;
+margin-top: 15em;
+text-align: center;
+}
+.services h3 {
+    border-bottom: 3px solid orange;
+    max-width: 6em;
+    margin-left: 45%;
+    padding-bottom: 10px;
+    color: rgb(66, 65, 65);
+}
+.services h1 {
+    font-size: 35px;
+    margin-left: 1.2em;
+}
+.services p {
+    max-width: 75%;
+    margin-left: 15%;
+    color: rgb(150, 147, 147);
+}
+.serv-sub {
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+}
+.serv-sub .serv-1 h3 {
+    margin-left: 95px;
+    border-bottom: 0px solid;
+}
+.serv-sub .serv-2 h3 {
+    margin-left: 75px;
+    max-width: 50%;
+    border-bottom: 0px solid;
+} 
+
+/* video */
+.video  {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+}
+.video .play img {
+    position: relative;
+    display: block;
+    height: 85px;
+    margin-top: -15em;
+    margin-left: 15em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.video h2 {
+    position: relative;
+    margin-top: 5.5em;
+    font-size: 30px;
+}
+.video p {
+    font-size: 17px;
+    max-width: 90%;
+    margin-left: 30px;
+}
+
+/* menu */
+.menu {
+    margin-top: 38em;
+    text-align: center;
+}
+.menu h3 {
+    border-bottom: 2px solid orange;
+    width: 10%;
+    margin-left: 45%;
+    color: rgb(110, 110, 110);
+}
+.menu h1 {
+    font-size: 30px;
+}
+.menu p {
+    max-width: 80%;
+    margin-left: 10%;
+    color: rgb(124, 119, 119);
+}
+.menu-0 {
+    display: flex;
+    padding: 20px;
+}
+.menu-0 a {
+    margin-left: -100px;
+    color: white;
+    background-color: orange;
+    border: 8px solid orange;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+/* breakfast */
+.breakfast {
+    display: flex;
+    max-width: 100%;
+}
+.breakfast .breakfast-1 {
+    max-width: 40%;
+}
+.breakfast-1 {
+    margin-left: 20px;
+}
+.breakfast-1 h3 {
+    color: rgb(138, 134, 134);
+    border-bottom: 2px solid orange;
+    width: 6em;
+} 
+.breakfast-1 p {
+    color: rgb(146, 146, 146);
+}
+.breakfast-1 a {
+     margin-left: 1px;
+     color: white;
+     background-color: orange;
+     border: 8px solid orange;
+     border-radius: 15px;
+     font-size: larger;
+}
+.breakfast .img4 {
+    margin-left: 25px;
+}
+
+/* lunch */
+.lunch {
+    display: flex;
+    margin-top: -4.7em;
+    text-align: left;
+}
+.lunch-1 h3 {
+    color: rgb(138, 134, 134);
+    border-bottom: 2px solid orange;
+    width: 4em;
+}
+.lunch-1 h1 {
+    max-width: 80%;
+}
+.lunch-1 p{
+    color: rgb(146, 146, 146);
+}
+.lunch-1 a{
+      margin-left: 1px;
+      color: white;
+      background-color: orange;
+      border: 8px solid orange;
+      border-radius: 15px;
+      font-size: larger;
+}
+/* dinner */
+.dinner {
+    display: flex;
+    max-width: 100%;
+    margin-top: -2.3em;
+}
+
+.dinner .dinner-1 {
+    max-width: 40%;
+}
+
+.dinner-1 {
+    margin-left: 20px;
+}
+
+.dinner-1 h3 {
+    color: rgb(138, 134, 134);
+    border-bottom: 2px solid orange;
+    width: 6em;
+}
+
+.dinner-1 p {
+    color: rgb(146, 146, 146);
+}
+
+.dinner-1 a {
+    margin-left: 1px;
+    color: white;
+    background-color: orange;
+    border: 8px solid orange;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.dinner .img4 {
+    margin-left: 25px;
+}
+
+/* dessert */
+
+.dessert {
+    display: flex;
+    margin-top: -5em;
+    text-align: left;
+}
+
+.dessert-1 h3 {
+    color: rgb(138, 134, 134);
+    border-bottom: 2px solid orange;
+    width: 4em;
+}
+
+.dessert-1 h1 {
+    max-width: 80%;
+}
+
+.dessert-1 p {
+    color: rgb(146, 146, 146);
+}
+
+.dessert-1 a {
+    margin-left: 1px;
+    color: white;
+    background-color: orange;
+    border: 8px solid orange;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+/* screem */
+.screen {
+    margin-top: -4em;
+}
+
+/* blog */
+.blog {
+    text-align: center;
+}
+.blog h3 {
+    color: rgb(83, 82, 82);
+    border-bottom: 2px solid orange;
+    width: 10%;
+    margin-left: 45%;
+}
+.blog p {
+    max-width: 80%;
+    color: rgb(104, 101, 101);
+    margin-left: 10%;
+}
+.blog1 {
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+}
+.blog-1 h2, .blog-2 h2 {
+    font-size: large;
+    color: rgb(78, 78, 78);
+}
+.blog-1 h4,
+.blog-2 h4 {
+    font-size: large;
+}
+.blog-1 p,
+.blog-2 p {
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    margin-left: 2px;
+}
+.blog-1 a, .blog-2 a {
+     margin-left: 1px;
+     color: white;
+     background-color: orange;
+     border: 8px solid orange;
+     border-radius: 15px;
+     font-size: larger;
+     position: relative;
+}
+
+/* saye */
+.says {
+    text-align: center;
+    background-color: rgb(224, 228, 230);
+    height: 36em;
+}
+.says h3 {
+    color: rgb(90, 87, 87);
+    border-bottom: 2px solid orange;
+    width: 50px;
+    margin-left: 45%;
+}
+.says h1 {
+    font-size: 30px;
+}
+.says p {
+    color: rgb(110, 109, 109);
+    font-size: large;
+    max-width: 80%;
+    margin-left: 10%;
+}
+.say0 {
+    display: flex;
+}
+.say0 img {
+    border-radius: 50%;
+}
+.say0 h4 {
+    color: rgb(141, 138, 138);
+}
+.say0 a {
+    margin-left: 1px;
+    color: white;
+    background-color: orange;
+    border: 8px solid orange;
+    border-radius: 15px;
+    font-size: larger;
+    position: relative;
+}
+
+/* footer */
+.foot {
+    background-color: black;
+    height: 27em; 
+    color: #eee; 
+}
+.foot .foot0 {
+    display: flex;
+    padding: 30px;
+}
+.foot0 .contact {
+    margin-left: -70px;
+}
+.foot0 .useful a {
+    max-width: 1px;
+    color: white;
+    text-decoration: none;   
+}
+.foot0 p {
+    max-width: 60%;
+    line-height: 25px;
+}
+.useful {
+    display: block;
+    max-width: 30%;
+}
+.copy {
+    display: flex;
+}
+.copy h2 {
+    margin-left: 10em;
+}
+.copy h3 {
+    margin-left: 0.5em;
+}
